@@ -1,0 +1,224 @@
+.header{
+    background-color: #02918c;
+    
+}
+#main_menu ul li a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#main_menu form button{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    background: url(../img/banner_01.jpg) center center;
+    height: 780px;    
+    background-size: cover;        
+    position: relative;
+    z-index: 1;
+}
+.banner:after{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    content: "";
+        
+}
+.banner_text{    
+    color: white;
+    text-align: center;
+    
+}
+
+.banner_text h4{    
+    color: white;
+    padding-top: 211px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text h1{    
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 31px;
+    padding-top: 18px;
+    font-size: 68px;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text p{  
+    color: white;
+    padding-top: 29px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text img{
+    padding-top: 49px;
+    padding-bottom: 52px;
+}
+.banner_text button{
+    padding: 19px 50px; 
+    font-size: 14px;
+    background-color: #cfc91d;
+    border: 1px; solid #cfc91d;
+    font-family: 'Open Sans', sans-serif;
+}
+.about_text{
+    text-align: center;    
+    font-family: 'Open Sans', sans-serif;
+}
+.about_text h2{
+    font-size: 46px;    
+    font-weight: 800;
+    padding-top: 98px;
+    color: #02918c;
+}
+.about_text p{
+    font-size: 16px;    
+    color: #7e8287;
+    padding-bottom: 82px;
+    
+}
+.about_text p span{
+    font-size: 20px;    
+    color: #7e8287;
+    
+}
+
+.about_icon{
+    text-align: center;
+    color: #7e8287;
+    border-right: 1px solid #7e8287;
+}
+.n{
+    border-style: none;
+}
+.about_icon h2{    
+    padding: 29px 0; 
+}
+.about_icon p{    
+    padding-bottom: 54px;
+}
+
+
+.service{
+    background: url(../img/banner_02.jpg) left top;
+    height: 780px;    
+    background-size: cover;        
+    position: relative;
+    z-index: 1;
+}
+.service:after{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-color: #f0f0e8;
+    opacity: .3;
+    content: "";
+}
+
+.serv_text{
+    text-align: left;    
+    font-family: 'Open Sans', sans-serif;
+}
+.serv_text h2{
+    font-size: 46px;    
+    font-weight: 800;
+    padding-top: 54px;
+    padding-bottom: 44px;
+    color: #02918c;
+}
+.serv_text p{
+    font-size: 16px;    
+    color: #7e8287;     
+}
+
+.ser_icon{
+    text-align: left;
+    color: #7e8287;
+    padding-top: 30px;
+    
+}
+
+.ser_icon h2{    
+    padding: 18px 0; 
+}
+.ser_icon p{    
+    padding-bottom: 0px;
+}
+
+.work_text{
+    text-align: center;    
+    font-family: 'Open Sans', sans-serif;
+}
+.work_text h2{
+    font-size: 46px;    
+    font-weight: 800;
+    padding-top: 74px;
+    padding-bottom: 44px;
+    color: #02918c;
+}
+.work_text p{
+    font-size: 16px;    
+    color: #7e8287;     
+}
+
+.work_img{
+    position: relative;
+    transition: all linear .3s;
+}
+.img_ol{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background: rgba(32, 148, 140, 0.85);
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+    transition: all linear .3s;
+    transform: scale(0);
+}
+.work_img:hover .img_ol{
+    transform: scale(1);
+}
+
+.con_text{
+    text-align: center;    
+    font-family: 'Open Sans', sans-serif;
+}
+.con_text h2{
+    font-size: 46px;    
+    font-weight: 800;
+    padding-top: 74px;
+    padding-bottom: 44px;
+    color: #02918c;
+}
+.con_text p{
+    font-size: 16px;    
+    color: #7e8287;     
+}
+
+.con_form{
+    background-color: #0b0b0b;
+    color: #fff;
+}
+.form-group{
+    padding-top: 69px;
+}
+.form{
+    margin-bottom: 100px;
+}
+.copyr{
+    background-color: #000000;
+    color: #fff;
+}
+.coryrt_txt h5{
+    padding: 35px 0px;
+}
